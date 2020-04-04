@@ -14,7 +14,7 @@ node f[54];
 
 
 node minimax(int n,int depth,bool player,int alpha,int beta)
-{  node g,j,label1;
+{  node g,j;
    j.value=0;j.depth=0;j.i=0;
    if(n==1)
     {
@@ -159,7 +159,7 @@ void AIvsAI(int n)
        }
 
 
-    Sleep(2000);
+    
     if(n==1 || n==0)
     { if(n==0)
       {
@@ -203,7 +203,7 @@ void AIvsAI(int n)
 void twoPlayerGame(int n)
 {   cout<<"TOSS"<<endl;
     srand(time(0));//TO GENRATE A RANDOM NUMBER
-    //Sleep(2000);//so that output dont come instantly
+  
     int pickup1,pickup2;
 	int i = rand()%2;
 //i=0 denotes the chance is of player1 and i=1 denotes the chance is of player 2
@@ -399,7 +399,7 @@ int main()
   cout<<"ENTER THE NUMBER OF STICKS"<<endl;
   cin>>n;
   node k;
-  //Sleep(2000);
+
   cout<<"RULE :ENTER NUMBER BETWEEM 1 AND 3"<<endl;
   if(i==1)
      {
