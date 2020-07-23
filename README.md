@@ -11,6 +11,7 @@ Assignments for A.I.
 **Code File Name** : assignment2astar.cpp
 **Compilation Instruction** : g++ assignment2astar.cpp
 **Output File** : output_for_astar.txt
+**Comments** : Heuristic Function is given in the head of code file as comments.
 
  #  Genitic Algorithm
 **Code File Name** : genitic_clustering.cpp
