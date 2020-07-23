@@ -7,9 +7,9 @@ void fitness_function(int a[],int n, int array[4])
     int i,p,q,r,fit = 0;
       for(i=0;i<n;i++)
       {
-          p =  abs(a[j]-array[0]);
-          q =  abs(a[j]-array[1]);
-          r =  abs(a[j]-array[2]);
+          p =  abs(a[i]-array[0]);
+          q =  abs(a[i]-array[1]);
+          r =  abs(a[i]-array[2]);
 
           
 		  if(p>q)
